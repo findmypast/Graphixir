@@ -5,6 +5,7 @@ defmodule Graphixir.Mixfile do
     [app: :graphixir,
      version: "0.0.1",
      elixir: "~> 1.2",
+     description: "Graphite framework for elixir",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
